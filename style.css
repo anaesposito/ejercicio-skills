@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&display=swap");
+* {
+  margin: 0px;
+}
+body {
+  font-family: Lato;
+}
+.contenedor {
+  width: 600px;
+  height: 522px;
+  border-radius: 15px;
+  background: #ffffff;
+  box-shadow: 0px 33px 51px rgba(0, 96, 167, 0.35);
+  display: flex;
+}
+#group {
+  border: 1px solid rgb(187, 187, 187);
+  margin-top: 2%;
+  margin-left: 2%;
+  height: 116px;
+  width: 570px;
+  display: flex;
+  justify-content: flex-start;
+}
+#rectangle {
+  width: 5px;
+  height: 116px;
+}
+.uno {
+  background-color: #d788ff;
+}
+.dos {
+  background-color: #f85e99;
+}
+.tres {
+  background-color: #ffa378;
+}
+.interior {
+  display: flex;
+  align-content: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 4%;
+}
+h2 {
+  color: #242e4c;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+p {
+  font-weight: 300;
+}
+#viewall {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  width: 119px;
+  height: 39px;
+  border-radius: 5px;
+  border: solid 1px #e6ecff;
+  background: #ffffff;
+}
+.top {
+  width: 184px;
+  height: 31px;
+  color: #242e4c;
+  font-family: Lato;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 31px;
+  text-align: center;
+}
